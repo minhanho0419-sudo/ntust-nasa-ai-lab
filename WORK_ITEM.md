@@ -36,3 +36,17 @@ GitHub MCP 回傳登入帳號 `minhanho0419-sudo`。在該認證下查詢 `minha
 ## 後續工單及 STOP_IF
 
 每張後續工單須列 INPUT、EXPECTED_OUTPUT、可寫範圍、唯讀範圍、驗收、STOP_IF、RETURN_TO。真實阻塞經診斷仍無法在授權範圍內恢復，或必要操作涉及破壞性修改、未授權公開與越界時，停止並附實際錯誤與最小解決條件回報 BLOCKED。M0 推送及核對完成後，回報 READY_FOR_BRAIN_REVIEW 並停止，等候 STUDENT-MAIN Brain 驗收及下一階段授權。
+
+## M2-FD001-PROFILE-001
+
+- **TYPE／PROJECT／MILESTONE** BOUNDED_WORK_ORDER／NTUST_SYNTHETIC_AGENT_LAB／M2_FD001_SOURCE_AND_DATA_DEFINITION。
+- **FROM／TO／RETURN_TO** STUDENT-RESEARCH／Research Own Worker (Codex)／STUDENT-RESEARCH。
+- **授權與派發** 學生於 2026-11-23 將工單貼入 Worker 介面，轉為 COMMAND_DISPATCHED。依該工單，學生指示且 MAIN 授權直接啟動 M2，M1 為 DEFERRED、驗收未完成。M3 待 MAIN 另行授權。
+- **治理基線** 從 origin 擷取的 main 為 `fb8ffc1ba186cd147d58a44c91ce77cb8261ef53`，已讀取完整 AGENTS.md，blob `dcba9f2e66cf648d2924718f1f2e245ade337dc1`，與 Brain 提供版本一致。
+- **INPUT** 本地 `data/FD001` 的 train/test/RUL、來源論文及 NASA 官方參考資料。
+- **EXPECTED_OUTPUT** 可重跑程式、來源對照、品質報告、資料字典與 M3 查詢契約、兩次執行及獨立核對證據。證據位置見 `reports/M2/research_verification.md`。
+- **可寫範圍** `scripts/m2_fd001_profile.py`、`reports/M2/`、本次階段調整與進度所需的 ROADMAP.md、WORK_ITEM.md、DECISIONS.md。
+- **唯讀與公開範圍** 原始資料、AGENTS.md、既有 M1 成果與其他未授權檔案唯讀。原始資料與 NASA 參考 ZIP 保留本地。公開提交限工單授權程式、衍生報告、驗證證據及治理更新。
+- **驗收** 確認來源與欄位映射、輸入雜湊不變、Profile 可重跑、抽查一致、契約及 UNKNOWN 明確、GitHub main 已推送且可讀回。Worker 已完成本機兩次 Profile、來源位元組比對及獨立統計核對；推送與遠端證據載於 Worker Return。
+- **STOP_IF** 無法定位或確認檔案、來源或必要映射，解析不可靠、輸入改變、核對不一致且無法修復、GitHub 無法存取或驗證，或必要操作越界時停止。
+- **交付狀態** 推送及遠端核對完成後為 READY_FOR_BRAIN_REVIEW。Research 驗收為 PENDING_BRAIN_REVIEW，MAIN 最終驗收為 PENDING。

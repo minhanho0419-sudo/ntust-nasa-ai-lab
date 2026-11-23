@@ -1,0 +1,3542 @@
+{
+  "dataset": "NASA C-MAPSS FD001",
+  "files": {
+    "train_FD001.txt": {
+      "bytes": 3515356,
+      "sha256": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+      "rows": 20631,
+      "columns": 26,
+      "field_order": [
+        "unit",
+        "cycle",
+        "setting_1",
+        "setting_2",
+        "setting_3",
+        "sensor_01",
+        "sensor_02",
+        "sensor_03",
+        "sensor_04",
+        "sensor_05",
+        "sensor_06",
+        "sensor_07",
+        "sensor_08",
+        "sensor_09",
+        "sensor_10",
+        "sensor_11",
+        "sensor_12",
+        "sensor_13",
+        "sensor_14",
+        "sensor_15",
+        "sensor_16",
+        "sensor_17",
+        "sensor_18",
+        "sensor_19",
+        "sensor_20",
+        "sensor_21"
+      ],
+      "blank_lines": [],
+      "duplicates": 0,
+      "missing_by_column": {
+        "unit": 0,
+        "cycle": 0,
+        "setting_1": 0,
+        "setting_2": 0,
+        "setting_3": 0,
+        "sensor_01": 0,
+        "sensor_02": 0,
+        "sensor_03": 0,
+        "sensor_04": 0,
+        "sensor_05": 0,
+        "sensor_06": 0,
+        "sensor_07": 0,
+        "sensor_08": 0,
+        "sensor_09": 0,
+        "sensor_10": 0,
+        "sensor_11": 0,
+        "sensor_12": 0,
+        "sensor_13": 0,
+        "sensor_14": 0,
+        "sensor_15": 0,
+        "sensor_16": 0,
+        "sensor_17": 0,
+        "sensor_18": 0,
+        "sensor_19": 0,
+        "sensor_20": 0,
+        "sensor_21": 0
+      },
+      "missing_total": 0,
+      "non_finite": 0,
+      "excluded_records": 0,
+      "parse_errors": 0,
+      "summaries": {
+        "unit": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "1",
+          "maximum": "100",
+          "mean": "51.50656778634094324075420483738064078329",
+          "mean_exact": "1062632/20631",
+          "constant": false
+        },
+        "cycle": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "1",
+          "maximum": "362",
+          "mean": "108.8078619553099704328437787795065677863",
+          "mean_exact": "2244815/20631",
+          "constant": false
+        },
+        "setting_1": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "-0.0087",
+          "maximum": "0.0087",
+          "mean": "-0.000008870146866366148029664097717027773738549",
+          "mean_exact": "-61/6877000",
+          "constant": false
+        },
+        "setting_2": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "-0.0006",
+          "maximum": "0.0006",
+          "mean": "0.000002350831273326547428626823711889874460763",
+          "mean_exact": "97/41262000",
+          "constant": false
+        },
+        "setting_3": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "100.0",
+          "maximum": "100.0",
+          "mean": "100",
+          "mean_exact": "100",
+          "constant": true
+        },
+        "sensor_01": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "518.67",
+          "maximum": "518.67",
+          "mean": "518.67",
+          "mean_exact": "51867/100",
+          "constant": true
+        },
+        "sensor_02": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "641.21",
+          "maximum": "644.53",
+          "mean": "642.6809335466046241093500072706121855460",
+          "mean_exact": "220985839/343850",
+          "constant": false
+        },
+        "sensor_03": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "1571.04",
+          "maximum": "1616.91",
+          "mean": "1590.523118607920120207454801027579855557",
+          "mean_exact": "1640704123/1031550",
+          "constant": false
+        },
+        "sensor_04": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "1382.25",
+          "maximum": "1441.49",
+          "mean": "1408.933781687751442004750133294556735010",
+          "mean_exact": "581354257/412620",
+          "constant": false
+        },
+        "sensor_05": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "14.62",
+          "maximum": "14.62",
+          "mean": "14.62",
+          "mean_exact": "731/50",
+          "constant": true
+        },
+        "sensor_06": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "21.60",
+          "maximum": "21.61",
+          "mean": "21.60980320876351122097813969269545829092",
+          "mean_exact": "8916637/412620",
+          "constant": false
+        },
+        "sensor_07": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "549.85",
+          "maximum": "556.06",
+          "mean": "553.3677112112839901119674276574087538171",
+          "mean_exact": "15222039/27508",
+          "constant": false
+        },
+        "sensor_08": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "2387.90",
+          "maximum": "2388.56",
+          "mean": "2388.096651640734816538219184722020260773",
+          "mean_exact": "2463441101/1031550",
+          "constant": false
+        },
+        "sensor_09": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "9021.73",
+          "maximum": "9244.59",
+          "mean": "9065.242940720275313848092676069991759973",
+          "mean_exact": "18702502711/2063100",
+          "constant": false
+        },
+        "sensor_10": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "1.30",
+          "maximum": "1.30",
+          "mean": "1.3",
+          "mean_exact": "13/10",
+          "constant": true
+        },
+        "sensor_11": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "46.85",
+          "maximum": "48.53",
+          "mean": "47.54116814502447772769133827734961950463",
+          "mean_exact": "24520546/515775",
+          "constant": false
+        },
+        "sensor_12": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "518.69",
+          "maximum": "523.38",
+          "mean": "521.4134700208424215985652658620522514662",
+          "mean_exact": "107572813/206310",
+          "constant": false
+        },
+        "sensor_13": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "2387.88",
+          "maximum": "2388.56",
+          "mean": "2388.096152392031409044641558819252581067",
+          "mean_exact": "410573431/171925",
+          "constant": false
+        },
+        "sensor_14": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "8099.94",
+          "maximum": "8293.72",
+          "mean": "8143.752722117202268431001890359168241966",
+          "mean_exact": "430804519/52900",
+          "constant": false
+        },
+        "sensor_15": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "8.3249",
+          "maximum": "8.5848",
+          "mean": "8.442145581891328583200038776598322912123",
+          "mean_exact": "348339811/41262000",
+          "constant": false
+        },
+        "sensor_16": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "0.03",
+          "maximum": "0.03",
+          "mean": "0.03",
+          "mean_exact": "3/100",
+          "constant": true
+        },
+        "sensor_17": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "388",
+          "maximum": "400",
+          "mean": "393.2106538703892201056662304299355339053",
+          "mean_exact": "8112329/20631",
+          "constant": false
+        },
+        "sensor_18": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "2388",
+          "maximum": "2388",
+          "mean": "2388",
+          "mean_exact": "2388",
+          "constant": true
+        },
+        "sensor_19": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "100.00",
+          "maximum": "100.00",
+          "mean": "100",
+          "mean_exact": "100",
+          "constant": true
+        },
+        "sensor_20": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "38.14",
+          "maximum": "39.43",
+          "mean": "38.81627066065629392661528767388880810431",
+          "mean_exact": "20020462/515775",
+          "constant": false
+        },
+        "sensor_21": {
+          "valid": 20631,
+          "excluded": 0,
+          "minimum": "22.8942",
+          "maximum": "23.6184",
+          "mean": "23.28970536086471814260094033250933061897",
+          "mean_exact": "4804899113/206310000",
+          "constant": false
+        }
+      },
+      "unit_count": 100,
+      "units": {
+        "1": {
+          "rows": 192,
+          "cycle_min": 1,
+          "cycle_max": 192,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "2": {
+          "rows": 287,
+          "cycle_min": 1,
+          "cycle_max": 287,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "3": {
+          "rows": 179,
+          "cycle_min": 1,
+          "cycle_max": 179,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "4": {
+          "rows": 189,
+          "cycle_min": 1,
+          "cycle_max": 189,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "5": {
+          "rows": 269,
+          "cycle_min": 1,
+          "cycle_max": 269,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "6": {
+          "rows": 188,
+          "cycle_min": 1,
+          "cycle_max": 188,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "7": {
+          "rows": 259,
+          "cycle_min": 1,
+          "cycle_max": 259,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "8": {
+          "rows": 150,
+          "cycle_min": 1,
+          "cycle_max": 150,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "9": {
+          "rows": 201,
+          "cycle_min": 1,
+          "cycle_max": 201,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "10": {
+          "rows": 222,
+          "cycle_min": 1,
+          "cycle_max": 222,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "11": {
+          "rows": 240,
+          "cycle_min": 1,
+          "cycle_max": 240,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "12": {
+          "rows": 170,
+          "cycle_min": 1,
+          "cycle_max": 170,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "13": {
+          "rows": 163,
+          "cycle_min": 1,
+          "cycle_max": 163,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "14": {
+          "rows": 180,
+          "cycle_min": 1,
+          "cycle_max": 180,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "15": {
+          "rows": 207,
+          "cycle_min": 1,
+          "cycle_max": 207,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "16": {
+          "rows": 209,
+          "cycle_min": 1,
+          "cycle_max": 209,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "17": {
+          "rows": 276,
+          "cycle_min": 1,
+          "cycle_max": 276,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "18": {
+          "rows": 195,
+          "cycle_min": 1,
+          "cycle_max": 195,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "19": {
+          "rows": 158,
+          "cycle_min": 1,
+          "cycle_max": 158,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "20": {
+          "rows": 234,
+          "cycle_min": 1,
+          "cycle_max": 234,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "21": {
+          "rows": 195,
+          "cycle_min": 1,
+          "cycle_max": 195,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "22": {
+          "rows": 202,
+          "cycle_min": 1,
+          "cycle_max": 202,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "23": {
+          "rows": 168,
+          "cycle_min": 1,
+          "cycle_max": 168,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "24": {
+          "rows": 147,
+          "cycle_min": 1,
+          "cycle_max": 147,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "25": {
+          "rows": 230,
+          "cycle_min": 1,
+          "cycle_max": 230,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "26": {
+          "rows": 199,
+          "cycle_min": 1,
+          "cycle_max": 199,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "27": {
+          "rows": 156,
+          "cycle_min": 1,
+          "cycle_max": 156,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "28": {
+          "rows": 165,
+          "cycle_min": 1,
+          "cycle_max": 165,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "29": {
+          "rows": 163,
+          "cycle_min": 1,
+          "cycle_max": 163,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "30": {
+          "rows": 194,
+          "cycle_min": 1,
+          "cycle_max": 194,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "31": {
+          "rows": 234,
+          "cycle_min": 1,
+          "cycle_max": 234,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "32": {
+          "rows": 191,
+          "cycle_min": 1,
+          "cycle_max": 191,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "33": {
+          "rows": 200,
+          "cycle_min": 1,
+          "cycle_max": 200,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "34": {
+          "rows": 195,
+          "cycle_min": 1,
+          "cycle_max": 195,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "35": {
+          "rows": 181,
+          "cycle_min": 1,
+          "cycle_max": 181,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "36": {
+          "rows": 158,
+          "cycle_min": 1,
+          "cycle_max": 158,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "37": {
+          "rows": 170,
+          "cycle_min": 1,
+          "cycle_max": 170,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "38": {
+          "rows": 194,
+          "cycle_min": 1,
+          "cycle_max": 194,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "39": {
+          "rows": 128,
+          "cycle_min": 1,
+          "cycle_max": 128,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "40": {
+          "rows": 188,
+          "cycle_min": 1,
+          "cycle_max": 188,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "41": {
+          "rows": 216,
+          "cycle_min": 1,
+          "cycle_max": 216,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "42": {
+          "rows": 196,
+          "cycle_min": 1,
+          "cycle_max": 196,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "43": {
+          "rows": 207,
+          "cycle_min": 1,
+          "cycle_max": 207,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "44": {
+          "rows": 192,
+          "cycle_min": 1,
+          "cycle_max": 192,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "45": {
+          "rows": 158,
+          "cycle_min": 1,
+          "cycle_max": 158,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "46": {
+          "rows": 256,
+          "cycle_min": 1,
+          "cycle_max": 256,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "47": {
+          "rows": 214,
+          "cycle_min": 1,
+          "cycle_max": 214,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "48": {
+          "rows": 231,
+          "cycle_min": 1,
+          "cycle_max": 231,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "49": {
+          "rows": 215,
+          "cycle_min": 1,
+          "cycle_max": 215,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "50": {
+          "rows": 198,
+          "cycle_min": 1,
+          "cycle_max": 198,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "51": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "52": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "53": {
+          "rows": 195,
+          "cycle_min": 1,
+          "cycle_max": 195,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "54": {
+          "rows": 257,
+          "cycle_min": 1,
+          "cycle_max": 257,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "55": {
+          "rows": 193,
+          "cycle_min": 1,
+          "cycle_max": 193,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "56": {
+          "rows": 275,
+          "cycle_min": 1,
+          "cycle_max": 275,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "57": {
+          "rows": 137,
+          "cycle_min": 1,
+          "cycle_max": 137,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "58": {
+          "rows": 147,
+          "cycle_min": 1,
+          "cycle_max": 147,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "59": {
+          "rows": 231,
+          "cycle_min": 1,
+          "cycle_max": 231,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "60": {
+          "rows": 172,
+          "cycle_min": 1,
+          "cycle_max": 172,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "61": {
+          "rows": 185,
+          "cycle_min": 1,
+          "cycle_max": 185,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "62": {
+          "rows": 180,
+          "cycle_min": 1,
+          "cycle_max": 180,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "63": {
+          "rows": 174,
+          "cycle_min": 1,
+          "cycle_max": 174,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "64": {
+          "rows": 283,
+          "cycle_min": 1,
+          "cycle_max": 283,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "65": {
+          "rows": 153,
+          "cycle_min": 1,
+          "cycle_max": 153,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "66": {
+          "rows": 202,
+          "cycle_min": 1,
+          "cycle_max": 202,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "67": {
+          "rows": 313,
+          "cycle_min": 1,
+          "cycle_max": 313,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "68": {
+          "rows": 199,
+          "cycle_min": 1,
+          "cycle_max": 199,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "69": {
+          "rows": 362,
+          "cycle_min": 1,
+          "cycle_max": 362,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "70": {
+          "rows": 137,
+          "cycle_min": 1,
+          "cycle_max": 137,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "71": {
+          "rows": 208,
+          "cycle_min": 1,
+          "cycle_max": 208,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "72": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "73": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "74": {
+          "rows": 166,
+          "cycle_min": 1,
+          "cycle_max": 166,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "75": {
+          "rows": 229,
+          "cycle_min": 1,
+          "cycle_max": 229,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "76": {
+          "rows": 210,
+          "cycle_min": 1,
+          "cycle_max": 210,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "77": {
+          "rows": 154,
+          "cycle_min": 1,
+          "cycle_max": 154,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "78": {
+          "rows": 231,
+          "cycle_min": 1,
+          "cycle_max": 231,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "79": {
+          "rows": 199,
+          "cycle_min": 1,
+          "cycle_max": 199,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "80": {
+          "rows": 185,
+          "cycle_min": 1,
+          "cycle_max": 185,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "81": {
+          "rows": 240,
+          "cycle_min": 1,
+          "cycle_max": 240,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "82": {
+          "rows": 214,
+          "cycle_min": 1,
+          "cycle_max": 214,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "83": {
+          "rows": 293,
+          "cycle_min": 1,
+          "cycle_max": 293,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "84": {
+          "rows": 267,
+          "cycle_min": 1,
+          "cycle_max": 267,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "85": {
+          "rows": 188,
+          "cycle_min": 1,
+          "cycle_max": 188,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "86": {
+          "rows": 278,
+          "cycle_min": 1,
+          "cycle_max": 278,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "87": {
+          "rows": 178,
+          "cycle_min": 1,
+          "cycle_max": 178,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "88": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "89": {
+          "rows": 217,
+          "cycle_min": 1,
+          "cycle_max": 217,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "90": {
+          "rows": 154,
+          "cycle_min": 1,
+          "cycle_max": 154,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "91": {
+          "rows": 135,
+          "cycle_min": 1,
+          "cycle_max": 135,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "92": {
+          "rows": 341,
+          "cycle_min": 1,
+          "cycle_max": 341,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "93": {
+          "rows": 155,
+          "cycle_min": 1,
+          "cycle_max": 155,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "94": {
+          "rows": 258,
+          "cycle_min": 1,
+          "cycle_max": 258,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "95": {
+          "rows": 283,
+          "cycle_min": 1,
+          "cycle_max": 283,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "96": {
+          "rows": 336,
+          "cycle_min": 1,
+          "cycle_max": 336,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "97": {
+          "rows": 202,
+          "cycle_min": 1,
+          "cycle_max": 202,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "98": {
+          "rows": 156,
+          "cycle_min": 1,
+          "cycle_max": 156,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "99": {
+          "rows": 185,
+          "cycle_min": 1,
+          "cycle_max": 185,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "100": {
+          "rows": 200,
+          "cycle_min": 1,
+          "cycle_max": 200,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        }
+      },
+      "order_anomalies": 0,
+      "duplicate_unit_cycle": 0,
+      "cycle_gaps": 0,
+      "constant_sensors": [
+        "sensor_01",
+        "sensor_05",
+        "sensor_10",
+        "sensor_16",
+        "sensor_18",
+        "sensor_19"
+      ]
+    },
+    "test_FD001.txt": {
+      "bytes": 2228855,
+      "sha256": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+      "rows": 13096,
+      "columns": 26,
+      "field_order": [
+        "unit",
+        "cycle",
+        "setting_1",
+        "setting_2",
+        "setting_3",
+        "sensor_01",
+        "sensor_02",
+        "sensor_03",
+        "sensor_04",
+        "sensor_05",
+        "sensor_06",
+        "sensor_07",
+        "sensor_08",
+        "sensor_09",
+        "sensor_10",
+        "sensor_11",
+        "sensor_12",
+        "sensor_13",
+        "sensor_14",
+        "sensor_15",
+        "sensor_16",
+        "sensor_17",
+        "sensor_18",
+        "sensor_19",
+        "sensor_20",
+        "sensor_21"
+      ],
+      "blank_lines": [],
+      "duplicates": 0,
+      "missing_by_column": {
+        "unit": 0,
+        "cycle": 0,
+        "setting_1": 0,
+        "setting_2": 0,
+        "setting_3": 0,
+        "sensor_01": 0,
+        "sensor_02": 0,
+        "sensor_03": 0,
+        "sensor_04": 0,
+        "sensor_05": 0,
+        "sensor_06": 0,
+        "sensor_07": 0,
+        "sensor_08": 0,
+        "sensor_09": 0,
+        "sensor_10": 0,
+        "sensor_11": 0,
+        "sensor_12": 0,
+        "sensor_13": 0,
+        "sensor_14": 0,
+        "sensor_15": 0,
+        "sensor_16": 0,
+        "sensor_17": 0,
+        "sensor_18": 0,
+        "sensor_19": 0,
+        "sensor_20": 0,
+        "sensor_21": 0
+      },
+      "missing_total": 0,
+      "non_finite": 0,
+      "excluded_records": 0,
+      "parse_errors": 0,
+      "summaries": {
+        "unit": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "1",
+          "maximum": "100",
+          "mean": "51.54390653634697617593158216249236408064",
+          "mean_exact": "675019/13096",
+          "constant": false
+        },
+        "cycle": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "1",
+          "maximum": "303",
+          "mean": "76.83651496640195479535736102626756261454",
+          "mean_exact": "1006251/13096",
+          "constant": false
+        },
+        "setting_1": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "-0.0082",
+          "maximum": "0.0078",
+          "mean": "-0.00001117898594990836896762370189370800244349",
+          "mean_exact": "-183/16370000",
+          "constant": false
+        },
+        "setting_2": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "-0.0006",
+          "maximum": "0.0007",
+          "mean": "0.000004237935247403787416004886988393402565669",
+          "mean_exact": "111/26192000",
+          "constant": false
+        },
+        "setting_3": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "100.0",
+          "maximum": "100.0",
+          "mean": "100",
+          "mean_exact": "100",
+          "constant": true
+        },
+        "sensor_01": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "518.67",
+          "maximum": "518.67",
+          "mean": "518.67",
+          "mean_exact": "51867/100",
+          "constant": true
+        },
+        "sensor_02": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "641.13",
+          "maximum": "644.30",
+          "mean": "642.4750878130726939523518631643249847282",
+          "mean_exact": "33655415/52384",
+          "constant": false
+        },
+        "sensor_03": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "1569.04",
+          "maximum": "1607.55",
+          "mean": "1588.099204337202199144777031154551007941",
+          "mean_exact": "1039887359/654800",
+          "constant": false
+        },
+        "sensor_04": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "1384.39",
+          "maximum": "1433.36",
+          "mean": "1404.735361942577886377519853390348197923",
+          "mean_exact": "183964143/130960",
+          "constant": false
+        },
+        "sensor_05": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "14.62",
+          "maximum": "14.62",
+          "mean": "14.62",
+          "mean_exact": "731/50",
+          "constant": true
+        },
+        "sensor_06": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "21.60",
+          "maximum": "21.61",
+          "mean": "21.60970067196090409285277947464874770922",
+          "mean_exact": "884377/40925",
+          "constant": false
+        },
+        "sensor_07": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "550.88",
+          "maximum": "555.84",
+          "mean": "553.7575229077580940745265729993891264508",
+          "mean_exact": "181300213/327400",
+          "constant": false
+        },
+        "sensor_08": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "2387.89",
+          "maximum": "2388.30",
+          "mean": "2388.070964416615760537568723274282223580",
+          "mean_exact": "625483547/261920",
+          "constant": false
+        },
+        "sensor_09": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "9024.53",
+          "maximum": "9155.03",
+          "mean": "9058.407363317043372021991447770311545510",
+          "mean_exact": "11862890283/1309600",
+          "constant": false
+        },
+        "sensor_10": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "1.30",
+          "maximum": "1.30",
+          "mean": "1.3",
+          "mean_exact": "13/10",
+          "constant": true
+        },
+        "sensor_11": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "46.80",
+          "maximum": "48.26",
+          "mean": "47.41620418448381185094685400122174709835",
+          "mean_exact": "62096261/1309600",
+          "constant": false
+        },
+        "sensor_12": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "519.38",
+          "maximum": "523.76",
+          "mean": "521.7477237324373854612095296273671350031",
+          "mean_exact": "683280819/1309600",
+          "constant": false
+        },
+        "sensor_13": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "2387.89",
+          "maximum": "2388.32",
+          "mean": "2388.071024740378741600488698839340256567",
+          "mean_exact": "1563708907/654800",
+          "constant": false
+        },
+        "sensor_14": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "8108.50",
+          "maximum": "8220.48",
+          "mean": "8138.947816890653634697617593158216249236",
+          "mean_exact": "10658766061/1309600",
+          "constant": false
+        },
+        "sensor_15": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "8.3328",
+          "maximum": "8.5414",
+          "mean": "8.425843967623701893708002443494196701283",
+          "mean_exact": "551724263/65480000",
+          "constant": false
+        },
+        "sensor_16": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "0.03",
+          "maximum": "0.03",
+          "mean": "0.03",
+          "mean_exact": "3/100",
+          "constant": true
+        },
+        "sensor_17": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "389",
+          "maximum": "397",
+          "mean": "392.5716249236408063530849114233353695785",
+          "mean_exact": "2570559/6548",
+          "constant": false
+        },
+        "sensor_18": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "2388",
+          "maximum": "2388",
+          "mean": "2388",
+          "mean_exact": "2388",
+          "constant": true
+        },
+        "sensor_19": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "100.00",
+          "maximum": "100.00",
+          "mean": "100",
+          "mean_exact": "100",
+          "constant": true
+        },
+        "sensor_20": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "38.31",
+          "maximum": "39.41",
+          "mean": "38.89250152718387293830177153329260843005",
+          "mean_exact": "2546681/65480",
+          "constant": false
+        },
+        "sensor_21": {
+          "valid": 13096,
+          "excluded": 0,
+          "minimum": "22.9354",
+          "maximum": "23.6419",
+          "mean": "23.33574269242516799022602321319486866219",
+          "mean_exact": "3056048863/130960000",
+          "constant": false
+        }
+      },
+      "unit_count": 100,
+      "units": {
+        "1": {
+          "rows": 31,
+          "cycle_min": 1,
+          "cycle_max": 31,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "2": {
+          "rows": 49,
+          "cycle_min": 1,
+          "cycle_max": 49,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "3": {
+          "rows": 126,
+          "cycle_min": 1,
+          "cycle_max": 126,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "4": {
+          "rows": 106,
+          "cycle_min": 1,
+          "cycle_max": 106,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "5": {
+          "rows": 98,
+          "cycle_min": 1,
+          "cycle_max": 98,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "6": {
+          "rows": 105,
+          "cycle_min": 1,
+          "cycle_max": 105,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "7": {
+          "rows": 160,
+          "cycle_min": 1,
+          "cycle_max": 160,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "8": {
+          "rows": 166,
+          "cycle_min": 1,
+          "cycle_max": 166,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "9": {
+          "rows": 55,
+          "cycle_min": 1,
+          "cycle_max": 55,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "10": {
+          "rows": 192,
+          "cycle_min": 1,
+          "cycle_max": 192,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "11": {
+          "rows": 83,
+          "cycle_min": 1,
+          "cycle_max": 83,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "12": {
+          "rows": 217,
+          "cycle_min": 1,
+          "cycle_max": 217,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "13": {
+          "rows": 195,
+          "cycle_min": 1,
+          "cycle_max": 195,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "14": {
+          "rows": 46,
+          "cycle_min": 1,
+          "cycle_max": 46,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "15": {
+          "rows": 76,
+          "cycle_min": 1,
+          "cycle_max": 76,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "16": {
+          "rows": 113,
+          "cycle_min": 1,
+          "cycle_max": 113,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "17": {
+          "rows": 165,
+          "cycle_min": 1,
+          "cycle_max": 165,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "18": {
+          "rows": 133,
+          "cycle_min": 1,
+          "cycle_max": 133,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "19": {
+          "rows": 135,
+          "cycle_min": 1,
+          "cycle_max": 135,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "20": {
+          "rows": 184,
+          "cycle_min": 1,
+          "cycle_max": 184,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "21": {
+          "rows": 148,
+          "cycle_min": 1,
+          "cycle_max": 148,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "22": {
+          "rows": 39,
+          "cycle_min": 1,
+          "cycle_max": 39,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "23": {
+          "rows": 130,
+          "cycle_min": 1,
+          "cycle_max": 130,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "24": {
+          "rows": 186,
+          "cycle_min": 1,
+          "cycle_max": 186,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "25": {
+          "rows": 48,
+          "cycle_min": 1,
+          "cycle_max": 48,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "26": {
+          "rows": 76,
+          "cycle_min": 1,
+          "cycle_max": 76,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "27": {
+          "rows": 140,
+          "cycle_min": 1,
+          "cycle_max": 140,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "28": {
+          "rows": 158,
+          "cycle_min": 1,
+          "cycle_max": 158,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "29": {
+          "rows": 171,
+          "cycle_min": 1,
+          "cycle_max": 171,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "30": {
+          "rows": 143,
+          "cycle_min": 1,
+          "cycle_max": 143,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "31": {
+          "rows": 196,
+          "cycle_min": 1,
+          "cycle_max": 196,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "32": {
+          "rows": 145,
+          "cycle_min": 1,
+          "cycle_max": 145,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "33": {
+          "rows": 50,
+          "cycle_min": 1,
+          "cycle_max": 50,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "34": {
+          "rows": 203,
+          "cycle_min": 1,
+          "cycle_max": 203,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "35": {
+          "rows": 198,
+          "cycle_min": 1,
+          "cycle_max": 198,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "36": {
+          "rows": 126,
+          "cycle_min": 1,
+          "cycle_max": 126,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "37": {
+          "rows": 121,
+          "cycle_min": 1,
+          "cycle_max": 121,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "38": {
+          "rows": 125,
+          "cycle_min": 1,
+          "cycle_max": 125,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "39": {
+          "rows": 37,
+          "cycle_min": 1,
+          "cycle_max": 37,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "40": {
+          "rows": 133,
+          "cycle_min": 1,
+          "cycle_max": 133,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "41": {
+          "rows": 123,
+          "cycle_min": 1,
+          "cycle_max": 123,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "42": {
+          "rows": 156,
+          "cycle_min": 1,
+          "cycle_max": 156,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "43": {
+          "rows": 172,
+          "cycle_min": 1,
+          "cycle_max": 172,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "44": {
+          "rows": 54,
+          "cycle_min": 1,
+          "cycle_max": 54,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "45": {
+          "rows": 152,
+          "cycle_min": 1,
+          "cycle_max": 152,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "46": {
+          "rows": 146,
+          "cycle_min": 1,
+          "cycle_max": 146,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "47": {
+          "rows": 73,
+          "cycle_min": 1,
+          "cycle_max": 73,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "48": {
+          "rows": 78,
+          "cycle_min": 1,
+          "cycle_max": 78,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "49": {
+          "rows": 303,
+          "cycle_min": 1,
+          "cycle_max": 303,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "50": {
+          "rows": 74,
+          "cycle_min": 1,
+          "cycle_max": 74,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "51": {
+          "rows": 144,
+          "cycle_min": 1,
+          "cycle_max": 144,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "52": {
+          "rows": 189,
+          "cycle_min": 1,
+          "cycle_max": 189,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "53": {
+          "rows": 164,
+          "cycle_min": 1,
+          "cycle_max": 164,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "54": {
+          "rows": 121,
+          "cycle_min": 1,
+          "cycle_max": 121,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "55": {
+          "rows": 113,
+          "cycle_min": 1,
+          "cycle_max": 113,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "56": {
+          "rows": 136,
+          "cycle_min": 1,
+          "cycle_max": 136,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "57": {
+          "rows": 160,
+          "cycle_min": 1,
+          "cycle_max": 160,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "58": {
+          "rows": 176,
+          "cycle_min": 1,
+          "cycle_max": 176,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "59": {
+          "rows": 94,
+          "cycle_min": 1,
+          "cycle_max": 94,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "60": {
+          "rows": 147,
+          "cycle_min": 1,
+          "cycle_max": 147,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "61": {
+          "rows": 159,
+          "cycle_min": 1,
+          "cycle_max": 159,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "62": {
+          "rows": 232,
+          "cycle_min": 1,
+          "cycle_max": 232,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "63": {
+          "rows": 155,
+          "cycle_min": 1,
+          "cycle_max": 155,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "64": {
+          "rows": 168,
+          "cycle_min": 1,
+          "cycle_max": 168,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "65": {
+          "rows": 71,
+          "cycle_min": 1,
+          "cycle_max": 71,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "66": {
+          "rows": 147,
+          "cycle_min": 1,
+          "cycle_max": 147,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "67": {
+          "rows": 71,
+          "cycle_min": 1,
+          "cycle_max": 71,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "68": {
+          "rows": 187,
+          "cycle_min": 1,
+          "cycle_max": 187,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "69": {
+          "rows": 54,
+          "cycle_min": 1,
+          "cycle_max": 54,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "70": {
+          "rows": 152,
+          "cycle_min": 1,
+          "cycle_max": 152,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "71": {
+          "rows": 68,
+          "cycle_min": 1,
+          "cycle_max": 68,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "72": {
+          "rows": 131,
+          "cycle_min": 1,
+          "cycle_max": 131,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "73": {
+          "rows": 112,
+          "cycle_min": 1,
+          "cycle_max": 112,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "74": {
+          "rows": 137,
+          "cycle_min": 1,
+          "cycle_max": 137,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "75": {
+          "rows": 88,
+          "cycle_min": 1,
+          "cycle_max": 88,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "76": {
+          "rows": 205,
+          "cycle_min": 1,
+          "cycle_max": 205,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "77": {
+          "rows": 162,
+          "cycle_min": 1,
+          "cycle_max": 162,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "78": {
+          "rows": 72,
+          "cycle_min": 1,
+          "cycle_max": 72,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "79": {
+          "rows": 101,
+          "cycle_min": 1,
+          "cycle_max": 101,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "80": {
+          "rows": 133,
+          "cycle_min": 1,
+          "cycle_max": 133,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "81": {
+          "rows": 213,
+          "cycle_min": 1,
+          "cycle_max": 213,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "82": {
+          "rows": 162,
+          "cycle_min": 1,
+          "cycle_max": 162,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "83": {
+          "rows": 73,
+          "cycle_min": 1,
+          "cycle_max": 73,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "84": {
+          "rows": 172,
+          "cycle_min": 1,
+          "cycle_max": 172,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "85": {
+          "rows": 34,
+          "cycle_min": 1,
+          "cycle_max": 34,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "86": {
+          "rows": 110,
+          "cycle_min": 1,
+          "cycle_max": 110,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "87": {
+          "rows": 56,
+          "cycle_min": 1,
+          "cycle_max": 56,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "88": {
+          "rows": 68,
+          "cycle_min": 1,
+          "cycle_max": 68,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "89": {
+          "rows": 177,
+          "cycle_min": 1,
+          "cycle_max": 177,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "90": {
+          "rows": 146,
+          "cycle_min": 1,
+          "cycle_max": 146,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "91": {
+          "rows": 234,
+          "cycle_min": 1,
+          "cycle_max": 234,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "92": {
+          "rows": 150,
+          "cycle_min": 1,
+          "cycle_max": 150,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "93": {
+          "rows": 244,
+          "cycle_min": 1,
+          "cycle_max": 244,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "94": {
+          "rows": 133,
+          "cycle_min": 1,
+          "cycle_max": 133,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_06",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "95": {
+          "rows": 89,
+          "cycle_min": 1,
+          "cycle_max": 89,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "96": {
+          "rows": 97,
+          "cycle_min": 1,
+          "cycle_max": 97,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "97": {
+          "rows": 134,
+          "cycle_min": 1,
+          "cycle_max": 134,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "98": {
+          "rows": 121,
+          "cycle_min": 1,
+          "cycle_max": 121,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "99": {
+          "rows": 97,
+          "cycle_min": 1,
+          "cycle_max": 97,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        },
+        "100": {
+          "rows": 198,
+          "cycle_min": 1,
+          "cycle_max": 198,
+          "missing_cycles": [],
+          "constant_sensors": [
+            "sensor_01",
+            "sensor_05",
+            "sensor_10",
+            "sensor_16",
+            "sensor_18",
+            "sensor_19"
+          ]
+        }
+      },
+      "order_anomalies": 0,
+      "duplicate_unit_cycle": 0,
+      "cycle_gaps": 0,
+      "constant_sensors": [
+        "sensor_01",
+        "sensor_05",
+        "sensor_10",
+        "sensor_16",
+        "sensor_18",
+        "sensor_19"
+      ]
+    },
+    "RUL_FD001.txt": {
+      "bytes": 429,
+      "sha256": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+      "rows": 100,
+      "columns": 1,
+      "field_order": [
+        "endpoint_rul"
+      ],
+      "blank_lines": [],
+      "duplicates": 29,
+      "missing_by_column": {
+        "endpoint_rul": 0
+      },
+      "missing_total": 0,
+      "non_finite": 0,
+      "excluded_records": 0,
+      "parse_errors": 0,
+      "summaries": {
+        "endpoint_rul": {
+          "valid": 100,
+          "excluded": 0,
+          "minimum": "7",
+          "maximum": "145",
+          "mean": "75.52",
+          "mean_exact": "1888/25",
+          "constant": false
+        }
+      }
+    }
+  }
+}

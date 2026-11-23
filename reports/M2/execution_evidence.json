@@ -1,0 +1,72 @@
+{
+  "cwd": "C:\\Users\\User\\Desktop\\20261123_AI\\20261123_AI",
+  "python": "3.15.2",
+  "os": "Windows-11-10.0.26200-SP0",
+  "dependencies": "Python standard library only",
+  "runs": [
+    {
+      "command": "python scripts/m2_fd001_profile.py --data-dir data/FD001 --output reports/M2/dataset_profile.json",
+      "start": "2026-11-23T15:27:52.284893+08:00",
+      "end": "2026-11-23T15:27:54.333491+08:00",
+      "exit_code": 0,
+      "stdout": "train_FD001.txt: rows=20631 columns=26 sha256=963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8\ntest_FD001.txt: rows=13096 columns=26 sha256=3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851\nRUL_FD001.txt: rows=100 columns=1 sha256=a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca\n",
+      "stderr": "",
+      "input_sha256_before": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      },
+      "input_sha256_after": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      }
+    },
+    {
+      "command": "python scripts/m2_fd001_profile.py --data-dir data/FD001 --output reports/M2/dataset_profile.json",
+      "start": "2026-11-23T15:27:54.379844+08:00",
+      "end": "2026-11-23T15:27:56.523621+08:00",
+      "exit_code": 0,
+      "stdout": "train_FD001.txt: rows=20631 columns=26 sha256=963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8\ntest_FD001.txt: rows=13096 columns=26 sha256=3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851\nRUL_FD001.txt: rows=100 columns=1 sha256=a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca\n",
+      "stderr": "",
+      "input_sha256_before": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      },
+      "input_sha256_after": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      }
+    },
+    {
+      "command": "python reports/M2/verify_profile.py data/FD001 reports/M2/dataset_profile.json reports/M2/nasa-reference.zip",
+      "start": "2026-11-23T15:27:56.570957+08:00",
+      "end": "2026-11-23T15:28:03.594105+08:00",
+      "exit_code": 0,
+      "stdout": "NASA archive SHA-256: 74bef434a34db25c7bf72e668ea4cd52afe5f2cf8e44367c55a82bfd91a5a34f\nNASA readme.txt SHA-256: 4f5270554b775c67e73aff383c5436fd329d6e4cc3d3a116913276fae511269b\nOfficial archive bytes match: train_FD001.txt, 3515356 bytes, 963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8\nPASS train_FD001.txt: shape, field order, hashes, blanks, duplicates, missing, and all exact summaries\nPASS sample train_FD001.txt: Unit=1 Cycle=1 line=1 Sensor=2 position=7 raw_value=641.82\nPASS sample train_FD001.txt: Unit=1 Cycle=192 line=192 Sensor=2 position=7 raw_value=643.54\nPASS sample train_FD001.txt: Unit=51 Cycle=1 line=9910 Sensor=9 position=14 raw_value=9065.98\nPASS sample train_FD001.txt: Unit=51 Cycle=213 line=10122 Sensor=9 position=14 raw_value=9244.59\nPASS sample train_FD001.txt: Unit=100 Cycle=1 line=20432 Sensor=21 position=26 raw_value=23.3899\nPASS sample train_FD001.txt: Unit=100 Cycle=200 line=20631 Sensor=21 position=26 raw_value=23.0522\nPASS train_FD001.txt: all Unit ranges, keys, order, gaps and constant classifications\nOfficial archive bytes match: test_FD001.txt, 2228855 bytes, 3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851\nPASS test_FD001.txt: shape, field order, hashes, blanks, duplicates, missing, and all exact summaries\nPASS sample test_FD001.txt: Unit=1 Cycle=1 line=1 Sensor=2 position=7 raw_value=643.02\nPASS sample test_FD001.txt: Unit=1 Cycle=31 line=31 Sensor=2 position=7 raw_value=642.58\nPASS sample test_FD001.txt: Unit=51 Cycle=1 line=6340 Sensor=9 position=14 raw_value=9047.93\nPASS sample test_FD001.txt: Unit=51 Cycle=144 line=6483 Sensor=9 position=14 raw_value=9053.37\nPASS sample test_FD001.txt: Unit=100 Cycle=1 line=12899 Sensor=21 position=26 raw_value=23.3087\nPASS sample test_FD001.txt: Unit=100 Cycle=198 line=13096 Sensor=21 position=26 raw_value=23.1855\nPASS test_FD001.txt: all Unit ranges, keys, order, gaps and constant classifications\nOfficial archive bytes match: RUL_FD001.txt, 429 bytes, a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca\nPASS RUL_FD001.txt: shape, field order, hashes, blanks, duplicates, missing, and all exact summaries\nOfficial archive bytes match: Damage Propagation Modeling.pdf, 434158 bytes, e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27\n",
+      "stderr": "",
+      "input_sha256_before": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      },
+      "input_sha256_after": {
+        "data/FD001/train_FD001.txt": "963b5e22825b34d8b21c69e1aeb4af3e647050eb672ee8834ba4b5d91d2de0f8",
+        "data/FD001/test_FD001.txt": "3cda7109ce17bafb5443f2ac926cfcf88154b941b8c4cf95eb55d1ddd6f52851",
+        "data/FD001/RUL_FD001.txt": "a19c8ec94931949d0485bdc35118206e9c81c4547b422efb9cf86f4ceddbceca",
+        "data/FD001/Damage Propagation Modeling.pdf": "e7aaef80c177333f400a4c1099fe76e67d244569b9397c937ec4cd3ed5b44a27"
+      }
+    }
+  ],
+  "reproduction": {
+    "byte_identical": true,
+    "profile_sha256": "7bf2d58113fdedbd861e0e04c1f705bb3404b03e006856095940511a45eecf0f"
+  }
+}
